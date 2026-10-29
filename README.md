@@ -25,16 +25,19 @@ In Cursor, ask something like:
 - “explain like I’m 1”
 - “ELI1”
 
+To turn it off, say **i thought youre an adult**. The agent should drop the baby voice for the rest of the chat unless you invoke the skill again.
+
 ## What the voice is going for
 
-This is a playful take on **infant-directed speech** (IDS), also called motherese or baby talk. Caregivers typically use shorter, simpler, more repetitive utterances, lots of names and questions, and a warm, high-energy affect. In writing (as in CHILDES/CHAT transcripts), that usually looks like tiny lines and repeats — not stretched comic spelling.
+This is a playful take on **infant-directed speech** (IDS). The skill still has to **answer the question**. Cooing with no content is a miss.
 
-The skill still has to **answer the question**. Cooing with no content is a miss.
+Papers, acoustic features, and how researchers write IDS down are in [RESEARCH.md](RESEARCH.md).
 
 ## Layout
 
 ```
 explainlikeim-one/
-├── SKILL.md    # instructions the agent reads
+├── SKILL.md      # instructions the agent reads
+├── RESEARCH.md   # IDS papers and how talk-to-babies is written
 └── README.md
 ```
